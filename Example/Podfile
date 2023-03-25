@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'UniStorage_Example' do
+  pod 'UniStorage', :path => '../'
+
+  target 'UniStorage_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
