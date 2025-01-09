@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.prefix_header_file = false
   s.source_files = [
     'Sources/**/*.{swift,h,m,mm}',
-    'UniStorage.swift'
   ]
   s.dependency 'MMKV'
 end

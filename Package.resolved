@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "mmkv",
+      "kind" : "remoteSourceControl",
+      "location" : "git@gitee.com:TokenTeam/MMKV.git",
+      "state" : {
+        "revision" : "9d14fdd98349ef39e7738447e65048ee4d7df5bd",
+        "version" : "2.0.2"
+      }
+    },
+    {
+      "identity" : "mmkvcore",
+      "kind" : "remoteSourceControl",
+      "location" : "git@gitee.com:TokenTeam/MMKVCore.git",
+      "state" : {
+        "revision" : "ddc74eba17b38e0dfe6b9be6d1b166687a5eedd0",
+        "version" : "2.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}
