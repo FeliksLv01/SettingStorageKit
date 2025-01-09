@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  UniStorage
+//  SettingStorageKit
 //
 //  Created by 49094905 on 03/25/2023.
 //  Copyright (c) 2023 49094905. All rights reserved.

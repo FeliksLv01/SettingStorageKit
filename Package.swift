@@ -4,22 +4,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "UniStorage",
+    name: "SettingStorageKit",
     platforms: [
         .iOS(.v13)
     ],
     products: [
         .library(
-            name: "UniStorage",
+            name: "SettingStorageKit",
             type: .static,
-            targets: ["UniStorage"]),
+            targets: ["SettingStorageKit"]),
     ],
     dependencies: [
         .package(url: "git@gitee.com:TokenTeam/MMKV.git", from: "2.0.2"),
         .package(url: "git@gitee.com:TokenTeam/MMKVCore.git", from: "2.0.2"),
     ],
     targets: [
-        .target(name: "UniStorage", dependencies:["MMKV", "MMKVCore"]),
+        .target(name: "SettingStorageKit", dependencies:["MMKV", "MMKVCore"]),
     ]
 )
 

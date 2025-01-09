@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:UniStorage.xcodeproj">
+      location = "self:SettingStorageKit.xcodeproj">
    </FileRef>
 </Workspace>

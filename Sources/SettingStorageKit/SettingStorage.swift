@@ -1,6 +1,6 @@
 //
 //  SettingStorage.swift
-//  UniStorage
+//  SettingStorageKit
 //
 //  Created by FeliksLv on 2023/3/25.
 //
@@ -29,7 +29,6 @@ public struct AppSettings: Sendable {
             set { MMKVAccessor.set(newValue, forKey: key.rawValue, mmkv: AppSettings.mmkv) }
         }
         
-        // 添加公共初始化器
         public init(key: Keys, defaultValue: T) {
             self.defaultValue = defaultValue
             self.key = key
@@ -37,7 +36,7 @@ public struct AppSettings: Sendable {
         
         public init(key: Keys) where T: ExpressibleByNilLiteral {
             self.key = key
-            self.defaultValue = nil // 允许将其设为 nil
+            self.defaultValue = nil
         }
     }
     

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "UniStorage_Example.app"
-               BlueprintName = "UniStorage_Example"
-               ReferencedContainer = "container:UniStorage.xcodeproj">
+               BuildableName = "SettingStorageKit_Example.app"
+               BlueprintName = "SettingStorageKit_Example"
+               ReferencedContainer = "container:SettingStorageKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "UniStorage_Tests.xctest"
-               BlueprintName = "UniStorage_Tests"
-               ReferencedContainer = "container:UniStorage.xcodeproj">
+               BuildableName = "SettingStorageKit_Tests.xctest"
+               BlueprintName = "SettingStorageKit_Tests"
+               ReferencedContainer = "container:SettingStorageKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "UniStorage_Example.app"
-            BlueprintName = "UniStorage_Example"
-            ReferencedContainer = "container:UniStorage.xcodeproj">
+            BuildableName = "SettingStorageKit_Example.app"
+            BlueprintName = "SettingStorageKit_Example"
+            ReferencedContainer = "container:SettingStorageKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -56,9 +56,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "UniStorage_Tests.xctest"
-               BlueprintName = "UniStorage_Tests"
-               ReferencedContainer = "container:UniStorage.xcodeproj">
+               BuildableName = "SettingStorageKit_Tests.xctest"
+               BlueprintName = "SettingStorageKit_Tests"
+               ReferencedContainer = "container:SettingStorageKit.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -78,9 +78,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "UniStorage_Example.app"
-            BlueprintName = "UniStorage_Example"
-            ReferencedContainer = "container:UniStorage.xcodeproj">
+            BuildableName = "SettingStorageKit_Example.app"
+            BlueprintName = "SettingStorageKit_Example"
+            ReferencedContainer = "container:SettingStorageKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "UniStorage_Example.app"
-            BlueprintName = "UniStorage_Example"
-            ReferencedContainer = "container:UniStorage.xcodeproj">
+            BuildableName = "SettingStorageKit_Example.app"
+            BlueprintName = "SettingStorageKit_Example"
+            ReferencedContainer = "container:SettingStorageKit.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
