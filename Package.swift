@@ -12,14 +12,13 @@ let package = Package(
         .library(
             name: "SettingStorageKit",
             type: .static,
-            targets: ["SettingStorageKit"]),
+            targets: ["SettingStorageKit"])
     ],
     dependencies: [
         .package(url: "git@gitee.com:TokenTeam/MMKV.git", from: "2.0.2"),
         .package(url: "git@gitee.com:TokenTeam/MMKVCore.git", from: "2.0.2"),
     ],
     targets: [
-        .target(name: "SettingStorageKit", dependencies:["MMKV", "MMKVCore"]),
+        .target(name: "SettingStorageKit", dependencies: ["MMKV", "MMKVCore"])
     ]
 )
-

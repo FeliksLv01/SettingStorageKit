@@ -18,6 +18,19 @@ public struct AppSettings: Sendable {
 
     private static var mmkv: MMKV? = MMKV(mmapID: "__global__")
 
+    public static func initialize(groupIdentifier: String? = nil) {
+        guard let groupIdentifier = groupIdentifier else {
+            MMKV.initialize(rootDir: nil)
+            return
+        }
+        if let groupURL = FileManager.default.containerURL(
+            forSecurityApplicationGroupIdentifier: groupIdentifier)
+        {
+            let mmkvPath = groupURL.path
+            MMKV.initialize(rootDir: nil, groupDir: mmkvPath, logLevel: .warning)
+        }
+    }
+
     @propertyWrapper
     public struct Storage<T: Codable> {
         let key: Keys
