@@ -16,8 +16,8 @@ public struct AppSettings: Sendable {
         }
     }
 
-    private static var mmkv: MMKV? = MMKV(mmapID: "__global__")
-
+    private static var mmkv: MMKV? = MMKV(mmapID: "__global__", mode: needGroup ? .multiProcess: .singleProcess)
+    private static var needGroup = false
     public static func initialize(groupIdentifier: String? = nil) {
         guard let groupIdentifier = groupIdentifier else {
             MMKV.initialize(rootDir: nil)
@@ -26,6 +26,7 @@ public struct AppSettings: Sendable {
         if let groupURL = FileManager.default.containerURL(
             forSecurityApplicationGroupIdentifier: groupIdentifier)
         {
+            needGroup = true
             let mmkvPath = groupURL.path
             MMKV.initialize(rootDir: nil, groupDir: mmkvPath, logLevel: .warning)
         }
