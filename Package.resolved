@@ -5,7 +5,7 @@
       "kind" : "remoteSourceControl",
       "location" : "git@gitee.com:TokenTeam/MMKV.git",
       "state" : {
-        "revision" : "9d14fdd98349ef39e7738447e65048ee4d7df5bd",
+        "revision" : "b064ae3f346ebe326d9d3f4aa2b0c2beb367673c",
         "version" : "2.0.2"
       }
     },
@@ -14,7 +14,7 @@
       "kind" : "remoteSourceControl",
       "location" : "git@gitee.com:TokenTeam/MMKVCore.git",
       "state" : {
-        "revision" : "ddc74eba17b38e0dfe6b9be6d1b166687a5eedd0",
+        "revision" : "32e1425bbb2008ddf4dd60262706dc6f1e3b774d",
         "version" : "2.0.2"
       }
     }
