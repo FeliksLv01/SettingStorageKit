@@ -201,7 +201,8 @@ private struct MMKVAccessor {
         } else if T.self == Int32.self || T.self == Int32?.self {
             return mmkv.int32(forKey: key) as? T ?? defaultValue
         } else if T.self == UInt.self || T.self == UInt?.self {
-            return mmkv.uint64(forKey: key) as? T ?? defaultValue
+            let uint64Value = mmkv.uint64(forKey: key)
+            return UInt(uint64Value) as? T ?? defaultValue
         } else if T.self == UInt64.self || T.self == UInt64?.self {
             return mmkv.uint64(forKey: key) as? T ?? defaultValue
         } else if T.self == UInt32.self || T.self == UInt32?.self {
